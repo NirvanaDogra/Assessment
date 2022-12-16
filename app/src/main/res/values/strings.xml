@@ -10,4 +10,15 @@
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_forecast">ForecastActivity</string>
+
+    <!--    MainActivity Strings -->
+    <string name="forecast_activity_main">Forecast</string>
+    <string name="the_weather_app_activity_main">The Weather App</string>
+
+    <!--  ForecastActivity Strings -->
+    <string name="the_forecast_activity_forecast">The Forecast</string>
+
+    <!--  AlertApiDialog Strings  -->
+    <string name="api_failed_dialog_fragment_alert">Api failed try again later</string>
+    <string name="api_failed_title_dialog_fragment_alert">Something went wrong</string>
 </resources>
