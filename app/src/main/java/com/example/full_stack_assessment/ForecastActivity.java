@@ -1,6 +1,5 @@
 package com.example.full_stack_assessment;
 
-import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -99,7 +98,8 @@ public class ForecastActivity extends AppCompatActivity {
         TextView textViewTimeOfDay = findViewById(R.id.text_view_time);
         TextView textViewTemperature = findViewById(R.id.text_view_degree);
         textViewTemperature.setText(temperature);
-        textViewTimeOfDay.setText(THIS + SPACE + timeOfDay);
+        String thisTimeOfDay = THIS + SPACE + timeOfDay;
+        textViewTimeOfDay.setText(thisTimeOfDay);
         try {
             imgForecastIcon.setImageResource(forecastMap.get(shortDescription));
         } catch (NullPointerException e) {

@@ -36,6 +36,7 @@
             android:background="@drawable/rounded_rect"
             android:drawableLeft="@drawable/ic_sun"
             android:text="@string/forecast_activity_main"
+            app:backgroundTint="@null"
             android:textColor="@color/black"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

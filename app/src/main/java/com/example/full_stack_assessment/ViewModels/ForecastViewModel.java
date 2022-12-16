@@ -150,7 +150,7 @@ public class ForecastViewModel extends ViewModel {
      */
     private String getTimeOfDay() {
         Date d = new Date();
-        SimpleDateFormat sdf = new SimpleDateFormat("hh", Locale.US);
+        SimpleDateFormat sdf = new SimpleDateFormat("HH", Locale.US);
         String currentTime = sdf.format(d);
         int time = Integer.parseInt(currentTime);
         if (time >= 12 && time <= 17) {
